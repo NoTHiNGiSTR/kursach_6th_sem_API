@@ -1,0 +1,13 @@
+server:
+    port: 3000
+spring:
+    application:
+        name: kursach-api
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost/task-manager-db
+        username: postgres
+        password: Lyambda_762221
+    jpa:
+        hibernate:
+            ddl-auto: update
